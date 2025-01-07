@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+.gradient-box {
+  display: inline-block; /* Adjusts to the content size */
+  padding: 20px; /* Adds spacing inside the box */
+  border-radius: 15px; /* Curves the edges */
+  background: linear-gradient(45deg, #0360ec, #b5ecff, #b71b9f); /* Creates the gradient */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  text-align: center; /* Centers the text inside the box */
+}
+
+.title {
+  margin: 0; /* Removes default margin */
+  font-family: 'Arial', sans-serif; /* Sets the font */
+  color: white; /* Text color */
+}
